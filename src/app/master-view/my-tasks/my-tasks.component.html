@@ -263,34 +263,6 @@
           </button>
         </div>
       </div>
-      <div class="column-layout group_8">
-        <igx-calendar [hasHeader]="true" headerOrientation="horizontal" class="content_1"></igx-calendar>
-        <div class="column-layout group_5">
-          <h6 class="content_2">
-            Release Calendar
-          </h6>
-          <igx-list class="list">
-            <igx-list-item>
-              <span igxListLineTitle>App Builder</span>
-              <span igxListLineSubTitle>Product download process experience</span>
-              <span igxListAction>
-                <igx-icon class="icon_2">
-                  check_circle
-                </igx-icon>
-              </span>
-            </igx-list-item>
-            <igx-list-item>
-              <span igxListLineTitle>Ultimate Products Review</span>
-              <span igxListLineSubTitle>08.13.2020</span>
-              <span igxListAction>
-                <igx-icon class="icon_3">
-                  error
-                </igx-icon>
-              </span>
-            </igx-list-item>
-          </igx-list>
-        </div>
-      </div>
     </div>
   </div>
 </div>
@@ -301,21 +273,21 @@
     </h5>
   </igx-dialog-title>
   <ng-container>
-    <div class="column-layout group_9">
+    <div class="column-layout group_8">
       <igx-input-group type="box" class="user-input">
         <input type="text" igxInput [(ngModel)]="value" />
         <label igxLabel>Task Name</label>
       </igx-input-group>
-      <div class="row-layout group_10">
-        <igx-icon class="icon_4">
+      <div class="row-layout group_9">
+        <igx-icon class="icon_2">
           people
         </igx-icon>
         <p class="text_1">
           Assigned to:
         </p>
-        <igx-chip class="content_1">
+        <igx-chip class="chip">
           <igx-suffix>
-            <igx-icon class="icon_5">
+            <igx-icon class="icon_3">
               clear
             </igx-icon>
           </igx-suffix>
@@ -326,23 +298,23 @@
         <label igxLabel>Description</label>
         <textarea igxInput [(ngModel)]="value1"></textarea>
       </igx-input-group>
-      <div class="row-layout group_11">
-        <div class="row-layout group_12">
-          <div class="row-layout group_13">
-            <igx-icon class="icon_5">
+      <div class="row-layout group_10">
+        <div class="row-layout group_11">
+          <div class="row-layout group_12">
+            <igx-icon class="icon_3">
               attach_file
             </igx-icon>
-            <igx-chip class="content_1">
+            <igx-chip class="chip">
               <igx-suffix>
-                <igx-icon class="icon_5">
+                <igx-icon class="icon_3">
                   clear
                 </igx-icon>
               </igx-suffix>
               FileName
             </igx-chip>
-            <igx-chip class="content_1">
+            <igx-chip class="chip">
               <igx-suffix>
-                <igx-icon class="icon_5">
+                <igx-icon class="icon_3">
                   clear
                 </igx-icon>
               </igx-suffix>
@@ -353,8 +325,8 @@
             Add Attachment
           </button>
         </div>
-        <div class="row-layout group_13">
-          <igx-icon class="icon_5">
+        <div class="row-layout group_12">
+          <igx-icon class="icon_3">
             access_time
           </igx-icon>
           <p class="content_2">
@@ -363,7 +335,7 @@
           <igx-badge type="success" value="IN PROGRESS" class="badge"></igx-badge>
         </div>
       </div>
-      <div class="row-layout group_14">
+      <div class="row-layout group_13">
         <button igxButton="flat" igxRipple [igxToggleAction]="editTaskDialog" class="button_1">
           CANCEL
         </button>
@@ -383,13 +355,13 @@
   </igx-dialog-title>
   <ng-container>
     <div class="row-layout group_7">
-      <div class="column-layout group_15">
+      <div class="column-layout group_14">
         <igx-input-group type="box" class="user-input">
           <input type="text" igxInput />
           <label igxLabel>Task Name</label>
         </igx-input-group>
-        <div class="row-layout group_16">
-          <igx-icon class="icon_6">
+        <div class="row-layout group_15">
+          <igx-icon class="icon_4">
             people
           </igx-icon>
           <button igxButton="flat" igxRipple class="button_1">
@@ -400,17 +372,17 @@
           <label igxLabel>Add Description</label>
           <textarea igxInput></textarea>
         </igx-input-group>
-        <div class="row-layout group_11">
-          <div class="row-layout group_13">
-            <igx-icon class="icon_5">
+        <div class="row-layout group_10">
+          <div class="row-layout group_12">
+            <igx-icon class="icon_3">
               attach_file
             </igx-icon>
             <button igxButton="flat" igxRipple class="button_1">
               Add Attachment
             </button>
           </div>
-          <div class="row-layout group_13">
-            <igx-icon class="icon_5">
+          <div class="row-layout group_12">
+            <igx-icon class="icon_3">
               access_time
             </igx-icon>
             <p class="content_2">
@@ -419,7 +391,7 @@
             <igx-badge value="TO DO" class="badge"></igx-badge>
           </div>
         </div>
-        <div class="row-layout group_14">
+        <div class="row-layout group_13">
           <button igxButton="flat" igxRipple [igxToggleAction]="newTaskDialog1" class="button_1">
             CANCEL
           </button>

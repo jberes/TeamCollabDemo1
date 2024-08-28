@@ -4,11 +4,12 @@ import { CommonModule } from '@angular/common';
 import { MasterViewRoutingModule } from './master-view-routing.module';
 import { MasterViewComponent } from './master-view.component';
 import { MyTasksComponent } from './my-tasks/my-tasks.component';
-import { IgxBadgeModule, IgxListModule, IgxIconModule, IgxButtonModule, IgxRippleModule, IgxToggleModule, IgxAvatarModule, IgxCalendarModule, IgxDialogModule, IgxInputGroupModule, IgxChipsModule, IgxCardModule, IgxTabsModule, IgxGridModule, IgxDropDownModule, IgxNavigationDrawerModule } from 'igniteui-angular';
+import { IgxBadgeModule, IgxListModule, IgxIconModule, IgxButtonModule, IgxRippleModule, IgxToggleModule, IgxAvatarModule, IgxDialogModule, IgxInputGroupModule, IgxChipsModule, IgxCardModule, IgxTabsModule, IgxGridModule, IgxDropDownModule, IgxNavigationDrawerModule } from 'igniteui-angular';
 import { FormsModule } from '@angular/forms';
 import { DashboardsComponent } from './dashboards/dashboards.component';
 import { BacklogComponent } from './backlog/backlog.component';
 import { Demo1Component } from './demo1/demo1.component';
+import { ChildViewComponent } from './child-view/child-view.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Demo1Component } from './demo1/demo1.component';
     MyTasksComponent,
     DashboardsComponent,
     BacklogComponent,
-    Demo1Component
+    Demo1Component,
+    ChildViewComponent
   ],
   imports: [
     CommonModule,
@@ -28,7 +30,6 @@ import { Demo1Component } from './demo1/demo1.component';
     IgxRippleModule,
     IgxToggleModule,
     IgxAvatarModule,
-    IgxCalendarModule,
     IgxDialogModule,
     IgxInputGroupModule,
     IgxChipsModule,
