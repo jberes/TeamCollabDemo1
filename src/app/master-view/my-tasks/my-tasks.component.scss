@@ -135,41 +135,30 @@
   justify-content: flex-start;
   align-items: stretch;
   align-content: flex-start;
-  gap: 32px;
-  overflow: hidden;
-  position: relative;
-  min-width: 50px;
-  min-height: 50px;
-  flex-shrink: 0;
-}
-.group_9 {
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: flex-start;
   gap: 24px;
   min-height: 50px;
 }
-.group_10 {
+.group_9 {
   justify-content: flex-start;
   align-items: center;
   align-content: flex-start;
   min-width: 50px;
 }
-.group_11 {
+.group_10 {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   align-content: flex-start;
   gap: 24px;
 }
-.group_12 {
+.group_11 {
   justify-content: flex-start;
   align-items: center;
   align-content: flex-start;
   gap: 16px;
   min-width: 50px;
 }
-.group_13 {
+.group_12 {
   justify-content: flex-start;
   align-items: center;
   align-content: flex-start;
@@ -177,14 +166,14 @@
   position: relative;
   min-width: 50px;
 }
-.group_14 {
+.group_13 {
   justify-content: flex-end;
   align-items: center;
   align-content: flex-start;
   gap: 16px;
   padding: 16px 0 12px;
 }
-.group_15 {
+.group_14 {
   justify-content: flex-start;
   align-items: stretch;
   align-content: flex-start;
@@ -192,7 +181,7 @@
   min-width: 640px;
   min-height: 50px;
 }
-.group_16 {
+.group_15 {
   justify-content: flex-start;
   align-items: center;
   align-content: flex-start;
@@ -228,25 +217,7 @@
 .avatar {
   --igx-avatar-background: transparent;
 }
-.content_1 {
-  width: max-content;
-  height: max-content;
-}
 .icon_2 {
-  --size: 24px;
-  font-size: 24px;
-  width: 24px;
-  height: 24px;
-  color: #E83180;
-}
-.icon_3 {
-  --size: 24px;
-  font-size: 24px;
-  width: 24px;
-  height: 24px;
-  color: #72DA67;
-}
-.icon_4 {
   --size: 24px;
   font-size: 24px;
   width: 24px;
@@ -258,13 +229,17 @@
   height: max-content;
   min-width: min-content;
 }
-.icon_5 {
+.chip {
+  width: max-content;
+  height: max-content;
+}
+.icon_3 {
   --size: 18px;
   font-size: 18px;
   width: 18px;
   height: 18px;
 }
-.icon_6 {
+.icon_4 {
   --size: 24px;
   font-size: 24px;
   width: 24px;
