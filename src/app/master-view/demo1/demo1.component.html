@@ -1,0 +1,23 @@
+<div class="column-layout group">
+  <igx-list class="list">
+    <igx-list-item *ngFor="let item of northwindCategories">
+      <span igxListThumbnail>
+        <igx-avatar shape="circle">
+          <igx-icon>
+            person
+          </igx-icon>
+        </igx-avatar>
+      </span>
+      <span igxListLineTitle>Title goes here</span>
+      <span igxListLineSubTitle>Subtitle...</span>
+      <span igxListAction>
+        <igx-icon class="icon">
+          star
+        </igx-icon>
+      </span>
+    </igx-list-item>
+  </igx-list>
+</div>
+<div class="column-layout group_1">
+  <rv-reveal-view dashboard="Sales" [options]="dashboardOptions" class="reveal-dash-board"></rv-reveal-view>
+</div>
